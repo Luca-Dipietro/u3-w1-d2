@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import fantasy from "../data/fantasy.json";
 
 class AllTheBooks extends Component {
@@ -16,8 +17,9 @@ class AllTheBooks extends Component {
                 <Card.Img variant="top" src={book.img} className="card-img" />
                 <Card.Body>
                   <Card.Title>{book.title}</Card.Title>
-                  <Card.Text>{book.category}</Card.Text>
+                  <Card.Text>Category: {book.category}</Card.Text>
                   <Card.Text>{book.price}$</Card.Text>
+                  <Button variant="warning">Buy It</Button>
                 </Card.Body>
               </Card>
             </Col>
