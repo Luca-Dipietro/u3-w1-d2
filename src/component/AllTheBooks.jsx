@@ -8,7 +8,7 @@ import fantasy from "../data/fantasy.json";
 class AllTheBooks extends Component {
   render() {
     return (
-      <Container fluid>
+      <Container fluid="xl">
         <Row>
           {fantasy.map((book) => (
             <Col key={book.asin} sm={6} md={3} lg={3} xl={3} className="mb-5">
