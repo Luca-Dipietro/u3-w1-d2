@@ -4,26 +4,26 @@ import Col from "react-bootstrap/Col";
 
 const MyFooter = function () {
   return (
-    <footer className="mt-auto py-3 bg-light">
+    <footer className="mt-auto py-3 bg-secondary">
       <Container fluid="sm">
         <Row className="d-flex align-items-center justify-content-between">
           <Col>
-            <p className="mb-0 text-muted">© 2024 Libreria Online</p>
+            <p className="mb-0 text-light">© 2024 Libreria Online</p>
           </Col>
           <Col>
             <nav>
               <ul className="list-unstyled d-flex justify-content-end mb-0">
-                <li className="mx-2 text-muted">
+                <li className="mx-2 text-light">
                   <a className="footer-link" href="/">
                     Chi Siamo
                   </a>
                 </li>
-                <li className="mx-2 text-muted">
+                <li className="mx-2 text-light">
                   <a className="footer-link" href="/">
                     Contatti
                   </a>
                 </li>
-                <li className="mx-2 text-muted">
+                <li className="mx-2 text-light">
                   <a className="footer-link" href="/">
                     Termini di Servizio
                   </a>
